@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +11,6 @@ body {
   line-height: 1.6;
 }
 
-/* Navbar */
 header {
   background: rgba(0,0,0,0.8);
   padding: 15px 10%;
@@ -48,7 +46,6 @@ nav ul li a:hover {
   color: #4fc3f7;
 }
 
-/* Hero Section */
 .hero-container {
   display: flex;
   justify-content: space-between;
@@ -95,7 +92,6 @@ nav ul li a:hover {
   background: #1976d2;
 }
 
-/* About Section */
 #about {
   padding: 60px 20px;
   color: #fff;
@@ -103,7 +99,7 @@ nav ul li a:hover {
 
 .about-container {
   display: flex;
-  align-items: flex-start;  /* rata atas */
+  align-items: flex-start;
   gap: 40px;
   flex-wrap: wrap;
 }
@@ -111,7 +107,7 @@ nav ul li a:hover {
 .about-photo img {
   width: 180px;
   height: 180px;
-  border-radius: 50%;   /* Biar bulat */
+  border-radius: 50%; 
   object-fit: cover;
   border: 4px solid #4fc3f7;
   box-shadow: 0 4px 15px rgba(42, 57, 69, 0.461);
@@ -119,7 +115,7 @@ nav ul li a:hover {
 
 .about-text {
   flex: 1;
-  text-align: left; /* rata kiri */
+  text-align: left;
 }
 
 .about-text h2 {
@@ -129,14 +125,13 @@ nav ul li a:hover {
 }
 
 .about-text p {
-  text-align: left;   /* teks rata kiri */
-  max-width: 500px;   /* batasi lebar teks */
-  line-height: 1.7;   /* biar enak dibaca */
+  text-align: left; 
+  max-width: 500px; 
+  line-height: 1.7; 
   margin-bottom: 15px;
 }
 
 
-/* Skill Logos */
 .skills {
   display: flex;
   gap: 15px;
@@ -154,7 +149,6 @@ nav ul li a:hover {
   transform: scale(1.2);
 }
 
-/* Button */
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -171,7 +165,6 @@ nav ul li a:hover {
   color: #fff;
 }
 
-/* Social Links */
 .social-links {
   display: flex;
   gap: 15px;
@@ -210,7 +203,6 @@ nav ul li a:hover {
   box-shadow: 0 0 10px rgba(255,255,255,0.6);
 }
 
-/* Section umum */
 section {
   padding: 60px 10%;
   text-align: left;
@@ -223,26 +215,26 @@ section h2 {
 }
 
 .project {
-  display: flex;                  /* Biar gambar & teks sejajar horizontal */
-  align-items: center;            /* Teks & gambar sejajar tengah */
+  display: flex;                
+  align-items: center;   
   background: rgba(255,255,255,0.1);
   padding: 20px;
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s;
-  gap: 20px;                      /* Jarak antara foto & teks */
+  gap: 20px; 
 }
 
 .project img {
-  width: 200px;                   /* Kotak (persegi) */
+  width: 200px;      
   height: 200px;
-  object-fit: cover;              /* Supaya gambar tidak ketarik */
+  object-fit: cover; 
   border-radius: 6px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
 
 .project-info {
-  flex: 1;                        /* Biar deskripsi isi sisa ruang di kanan */
+  flex: 1;  
 }
 
 .project-info h3 {
@@ -261,7 +253,6 @@ section h2 {
   transform: scale(1.02);
 }
 
-/* Footer */
 footer {
   background: rgba(0,0,0,0.8);
   padding: 15px;
@@ -269,7 +260,6 @@ footer {
   margin-top: 40px;
 }
 
-/* Responsif */
 @media (max-width: 768px) {
   .hero-container {
     flex-direction: column;
