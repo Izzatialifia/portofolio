@@ -26,5 +26,4 @@ Beberapa teknologi atau alat yang digunakan di situs ini:
 - HTML  
 - CSS  
 - JavaScript  
-- (Opsional: jika menggunakan framework atau library, misalnya React, Next.js, Tailwind CSS, dsb — tambahkan di sini)  
 - Deployment: Vercel  
